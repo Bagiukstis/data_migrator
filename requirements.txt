@@ -1,0 +1,4 @@
+pandas~=1.5.3
+pymssql~=2.2.5
+sqlalchemy~=1.4.39
+pyyaml~=6.0

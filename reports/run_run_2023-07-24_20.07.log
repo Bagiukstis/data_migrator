@@ -1,0 +1,24 @@
+2023-07-24 20:07:23,301  |  INFO  ->  Data copying report
+2023-07-24 20:07:25,488  |  INFO  ->  Took 2.173s to fetch brands data from SOURCE_DATABASE
+2023-07-24 20:07:26,304  |  INFO  ->  Took 0.815s to fetch categories data from SOURCE_DATABASE
+2023-07-24 20:07:27,336  |  INFO  ->  Took 1.031s to fetch customers data from SOURCE_DATABASE
+2023-07-24 20:07:31,452  |  INFO  ->  Took 4.115s to fetch order_items data from SOURCE_DATABASE
+2023-07-24 20:07:33,710  |  INFO  ->  Took 2.254s to fetch orders data from SOURCE_DATABASE
+2023-07-24 20:07:35,642  |  INFO  ->  Took 1.930s to fetch products data from SOURCE_DATABASE
+2023-07-24 20:07:37,050  |  INFO  ->  Took 1.407s to fetch staffs data from SOURCE_DATABASE
+2023-07-24 20:07:39,781  |  INFO  ->  Took 2.730s to fetch stocks data from SOURCE_DATABASE
+2023-07-24 20:07:40,673  |  INFO  ->  Took 0.891s to fetch stores data from SOURCE_DATABASE
+2023-07-24 20:07:43,896  |  INFO  ->  Took 3.221s to insert brands data to TARGET_DATABASE
+2023-07-24 20:07:46,159  |  INFO  ->  Took 2.262s to insert categories data to TARGET_DATABASE
+2023-07-24 20:07:46,165  |  WARNING  ->  Dataframe with table name: customers in column: phone contains NaN values
+2023-07-24 20:07:51,940  |  INFO  ->  Took 5.775s to insert customers data to TARGET_DATABASE
+2023-07-24 20:07:51,948  |  WARNING  ->  Dataframe with table name: order_items in column list_price contains negative prices
+2023-07-24 20:07:57,582  |  INFO  ->  Took 5.633s to insert order_items data to TARGET_DATABASE
+2023-07-24 20:07:57,586  |  WARNING  ->  Dataframe with table name: orders in column: shipped_date contains NaN values
+2023-07-24 20:08:02,167  |  INFO  ->  Took 4.581s to insert orders data to TARGET_DATABASE
+2023-07-24 20:08:04,744  |  INFO  ->  Took 2.575s to insert products data to TARGET_DATABASE
+2023-07-24 20:08:04,746  |  WARNING  ->  Dataframe with table name: staffs in column: manager_id contains NaN values
+2023-07-24 20:08:06,907  |  INFO  ->  Took 2.161s to insert staffs data to TARGET_DATABASE
+2023-07-24 20:08:09,382  |  INFO  ->  Took 2.474s to insert stocks data to TARGET_DATABASE
+2023-07-24 20:08:11,573  |  INFO  ->  Took 2.190s to insert stores data to TARGET_DATABASE
+2023-07-24 20:08:11,573  |  INFO  ->  Copying completed

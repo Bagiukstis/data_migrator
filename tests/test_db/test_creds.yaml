@@ -1,0 +1,13 @@
+MOCK_CREDS:
+  USER: test_user
+  PASSWORD: test_password
+  HOST: localhost
+  PORT: 1433
+  DATABASE: test_db
+
+MOCK_CREDS_WRONG:
+  USER: test_user2
+  PASSWORD: test_password1
+  HOST: localhost
+  PORT: 1435
+  DATABASE: test_db

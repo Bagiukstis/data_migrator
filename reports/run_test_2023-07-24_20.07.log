@@ -1,0 +1,15 @@
+2023-07-24 20:07:18,217  |  INFO  ->  Unit testing report
+2023-07-24 20:07:18,241  |  INFO  ->  Took 0.004s to fetch sample data from MOCK_CREDS
+2023-07-24 20:07:18,246  |  ERROR  ->  Table with table name: error does not exist in database: test_db
+2023-07-24 20:07:18,252  |  INFO  ->  Took 0.003s to insert sample data to MOCK_CREDS
+2023-07-24 20:07:18,255  |  ERROR  ->  sample can not be inserted to: MOCK_CREDS, as the data: [1, 2, 3] is not a DataFrame
+2023-07-24 20:07:18,263  |  INFO  ->  Took 0.003s to insert sample data to MOCK_CREDS
+2023-07-24 20:07:18,268  |  WARNING  ->  Dataframe with table name: sample in column: A contains NaN values
+2023-07-24 20:07:18,268  |  WARNING  ->  Dataframe with table name: sample in column: B contains NaN values
+2023-07-24 20:07:18,270  |  WARNING  ->  Dataframe with table name: sample in column: B contains NaN values
+2023-07-24 20:07:18,271  |  WARNING  ->  Dataframe with table name: sample contains invalid emails
+2023-07-24 20:07:18,271  |  WARNING  ->  Dataframe with table name: sample contains invalid emails
+2023-07-24 20:07:18,275  |  WARNING  ->  Dataframe with table name: sample has wrongly formatted dates
+2023-07-24 20:07:18,275  |  WARNING  ->  Dataframe with table name: sample contains duplicate values
+2023-07-24 20:07:18,278  |  WARNING  ->  Dataframe with table name: sample in column list_price contains negative prices
+2023-07-24 20:07:18,279  |  CRITICAL  ->  OK: Ran 25 tests in 0.061s
