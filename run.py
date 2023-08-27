@@ -13,7 +13,7 @@ if __name__ == "__main__":
     # Initializing arg parser and logger
     args = initialiser.configure_parser()
     initialiser.configure_logger(args)
-    logging = logging.getLogger(__name__)
+    logger = logging.getLogger(__name__)
 
     if args.test:
         from tests.run_tests import run_suite
@@ -21,7 +21,7 @@ if __name__ == "__main__":
         run_suite()
         exit()
 
-    logging.info("Data copying report")
+    logger.info("Data copying report")
 
     # Connect to dbs
     source_db = Read(relative_file_path, "SOURCE_DATABASE")
