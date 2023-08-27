@@ -41,4 +41,4 @@ if __name__ == "__main__":
 
     msg = "Copying completed"
     print(msg)
-    logging.info(msg)
+    logger.info(msg)
