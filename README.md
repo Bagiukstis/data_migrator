@@ -1,7 +1,7 @@
 ## Overview
 This project is built to copy the data from source to the target database. The purpose was to build a flexible data copying pipeline, where existing or newly added procedures could be easily modified and integrated.
 
-Thus, this project utilizes decorators for data characteristics evaluation step.
+Thus, this project utilizes decorators for data characteristics evaluation step inspired by the [arbitrary loader](https://github.com/MarkTheF4rth/Playground/tree/main/arbitraryloader).
 The evaluation characteristics can be easily added to `quality_checks` folder and get registered with `@procedure` decorator.
 The procedure modules can be easily hidden by adding ```'_'``` or ```'.'``` in front of the module name if it is desired to skip a certain data quality check.
 
